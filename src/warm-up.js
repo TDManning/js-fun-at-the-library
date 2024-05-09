@@ -78,7 +78,7 @@ if (isFavorite === true) {
 // Create a new variable "books" and assign it to an Array of 5 different
 // book titles, represented by their names as Strings.
 
-var books = ["A Game of Thrones", "A Clash of Kings", "A Storm of Swords", "A Dance with Dragons", "The Winds of Winter"];
+var books = ["A Game of Thrones", "A Clash of Kings", "A Storm of Swords", "A Dance with Dragons", "The Winds of Winter"]
 
 // Write the code to access the 3rd element of the Array, using bracket
 // notation.
@@ -100,6 +100,13 @@ belowTwoHundred[4]
 // keys: name, and hasThesaurus. The value for name should the string 'Webster's', and
 // the value for hasThesaurus should be false
 
+var dictionary = {
+    name: "Webster's",
+    hasThesaurus: false,
+};
 
 // Write the code to add the key of pageCount, with the value of 720. Use dot
 // notation to do this. DO NOT modify your code from above.
+
+dictionary.pageCount = 720;
+console.log(dictionary)
